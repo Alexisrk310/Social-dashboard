@@ -1,0 +1,154 @@
+*{
+    padding: 0%;
+    border: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    display: block;
+}
+
+/** INICIO **/
+.titulo{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.titulo > label{
+    text-transform: capitalize;
+    margin-left: 240px;    
+    font-size: 20px;
+
+}
+.titulo label p{
+    
+}
+
+.titulo span{
+    margin-right: 240px;
+}
+
+
+
+
+
+
+.conten{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.conten .facebook{
+    border-top: 4px solid #006c95; 
+}
+.conten .twitter{
+    border-top: 4px solid #1fd9fb ;
+}
+.conten .instagram{
+    border-top:4px solid #950092 ;
+}
+.conten .youtube{
+    border-top: 4px solid #95001c;
+}
+
+.conten span label p{
+    margin-top: 1000px;
+}
+
+.facebook, .twitter, .instagram, .youtube{
+    background-color: #e3e9ef;
+    height: 200px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 7px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:; 
+    text-align: center;
+    
+}
+
+.conten .facebook > p, .twitter > p, .instagram > p, .youtube > p{
+    margin-top: 23px;
+}
+.conten .facebook > .seguidores, .twitter > .seguidores, .instagram > .seguidores, .youtube > .seguidores{
+    font-weight: 700;
+    font-size: 28px;
+}
+.conten .facebook > .followers, .twitter > .followers, .instagram > .followers, .youtube > .followers{
+    letter-spacing: 2px;
+}
+.conten .facebook > .dias, .twitter > .dias, .instagram > .dias{
+    color: #10C359;
+}
+.conten .youtube > .dias{
+    color: #F01B1B;
+}
+
+/** FIN DE LO DE ARRIBA **/
+
+/*--------------------------------------------------------------*/
+
+/** INICIO DE LO DE ABAJO **/
+.conten-2{
+    
+    
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 20% 20% 20% 20%;
+    gap: 8px;
+    margin-top: 60px;
+    
+
+}
+
+
+
+.titulo2{
+    font-size: 23px;
+    margin-left: 220px;
+   display: block;
+   padding-top: 20px;
+    
+}
+.conten-2 .pag-facebook, .likes-facebook,.likes-instagram, .profile-instagram, .retweets-twitter, .likes-twitter, .likes-youtube, .views-youtube{
+    background-color: #e3e9ef;
+    width: 270px;
+    height: 130px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.conten-2 p{
+    padding: 10px;
+}
+
+.conten-2 span{
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 15px;
+}
+
+
+
+.separador{
+    display: flex;
+    justify-content: space-between;
+
+}
+.separador img{
+    width: 20px;
+    height: 20px;
+    margin: 19px;
+}
+.separacion1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 23px;
+    padding-right: 9px;
+}
